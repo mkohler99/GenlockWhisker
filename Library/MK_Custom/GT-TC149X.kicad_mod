@@ -1,0 +1,219 @@
+(footprint "GT-TC149X"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0a0e5e4e-1371-415e-9046-3e58175b1cdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "GT-TC149X"
+		(at 0 7.21 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7399345e-46d3-4320-a11a-5ab6fe7a00a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e69d697-2adc-4a07-af7a-65e92034a1e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7518e990-ec80-47a3-97d1-0e9733abd935")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65355b65-fd41-4448-bc20-216dd9759b79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -4.5)
+		(end -4.5 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8e5d4f1-51da-4b3a-a969-15650fe21593")
+	)
+	(fp_line
+		(start -6 4.5)
+		(end -6 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "166f62d6-c5b3-4d25-b93a-157f6e94ef93")
+	)
+	(fp_line
+		(start -4.5 6)
+		(end -6 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36d8af90-7800-43b4-8770-2bb18934497e")
+	)
+	(fp_line
+		(start 4.5 -6)
+		(end -4.5 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a1cd0b2-0ffd-404d-b40e-677c1cc45328")
+	)
+	(fp_line
+		(start 4.5 6)
+		(end -4.5 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "04efb616-1278-4cbc-81b5-1bfa88376c91")
+	)
+	(fp_line
+		(start 6 -4.5)
+		(end 4.5 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ddb7b87a-756f-4b13-be57-410d3368856f")
+	)
+	(fp_line
+		(start 6 4.5)
+		(end 4.5 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "196355e2-c55c-4999-b905-9fc44dc8f6ef")
+	)
+	(fp_line
+		(start 6 4.5)
+		(end 6 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b4ae62b0-f2ad-4158-bb05-e9cc77e498b4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.35 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fa2eabfc-707d-4953-9f1c-129d0104cca0")
+	)
+	(fp_rect
+		(start -8.5 -6.25)
+		(end 8.5 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0ab3c617-0fad-41d6-abd7-01d7517948cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.09 9.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "40105f88-f6fd-478d-94bf-feb2039fea52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7.25 -2.5)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2676c8e1-2b1c-48a5-b3dc-a5bde2e98f96")
+	)
+	(pad "2" smd rect
+		(at 7.25 -2.5)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d277afdd-73c1-4877-81ae-461c62b00351")
+	)
+	(pad "3" smd rect
+		(at -7.25 2.5)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b1b8a6c2-919d-4ffa-8acd-68dd52327b46")
+	)
+	(pad "4" smd rect
+		(at 7.25 2.5)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f1275b01-2147-4c30-a8f8-d30ea3a41bab")
+	)
+	(model "${KIPRJMOD}/Library/MK_Custom/GT-TC149X/GT-TC149X v2.step"
+		(offset
+			(xyz -6 -6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS11CP
+D Switch Slide ON None OFF SPST Top Slide 0.1A 28VAC 28VDC 0.4VA 50000Cycles PC Pins Thru-Hole
+K
+F https://www.digikey.ph/en/products/detail/nkk-switches/AS11CP/1051309?msockid=39f1ec84d77b6f4428b7f904d6676eed
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM2776DBVT
+D TEXAS INSTRUMENTS - LM2776DBVT - CHARGE PUMP, INV, -2.7V TO -5.5V, SOT-23
+K
+F http://www.ti.com/lit/ds/symlink/lm2776.pdf
+$ENDCMP
+#
+#End Doc Library

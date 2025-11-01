@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CL-SB-22B-12T
+#/815980/1357695/2.50/6/4/Switch
+DEF CL-SB-22B-12T S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "CL-SB-22B-12T" 1050 200 50 H V L CNN
+F2 "CLSB22B12T" 1050 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/2443549P" 1050 0 50 H I L CNN
+F4 "Switch Slide ON-ON DPDT Side 200mA 12VDC 10000Cycles Gullwing T/R - Tape and Reel" 1050 -100 50 H I L CNN "Description"
+F5 "3.5" 1050 -200 50 H I L CNN "Height"
+F6 "2443549P" 1050 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/2443549P" 1050 -400 50 H I L CNN "RS Price/Stock"
+F8 "Nidec Copal" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CL-SB-22B-12T" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X COM_1 2 0 -100 200 R 50 50 0 0 P
+X NO_1 3 0 -200 200 R 50 50 0 0 P
+X NC_2 4 1200 0 200 L 50 50 0 0 P
+X COM_2 5 1200 -100 200 L 50 50 0 0 P
+X NO_2 6 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

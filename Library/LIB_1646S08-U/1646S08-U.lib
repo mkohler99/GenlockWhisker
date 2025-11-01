@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1646S08-U
+#/1001296/1245084/2.50/8/4/Integrated Circuit
+DEF 1646S08-U IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "1646S08-U" 950 200 50 H V L CNN
+F2 "SOIC127P602X173-8N" 950 100 50 H I L CNN
+F3 "http://www.thatcorp.com/datashts/1600data.pdf" 950 0 50 H I L CNN
+F4 "Audio Amplifiers Balanced Audio Line Driver IC" 950 -100 50 H I L CNN "Description"
+F5 "1.73" 950 -200 50 H I L CNN "Height"
+F6 "887-1646S08-U" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/THAT/1646S08-U?qs=7hHJOukDioSBWO8%252B4y5TTQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "THAT CORPORATION" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1646S08-U" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT- 1 0 0 200 R 50 50 0 0 P
+X SNS- 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X IN 4 0 -300 200 R 50 50 0 0 P
+X OUT+ 8 1100 0 200 L 50 50 0 0 P
+X SNS+ 7 1100 -100 200 L 50 50 0 0 P
+X VCC 6 1100 -200 200 L 50 50 0 0 P
+X VEE 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

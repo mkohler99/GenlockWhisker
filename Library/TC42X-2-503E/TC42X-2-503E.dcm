@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TC42X-2-503E
+D Res Cermet Trimmer 50K Ohm 25% 0.1W(1/10W) 1(Elec)/1(Mech)Turns (2.2 X 2.8 X 0.8mm) Footprint SMD T/R
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000140518.pdf
+$ENDCMP
+#
+#End Doc Library

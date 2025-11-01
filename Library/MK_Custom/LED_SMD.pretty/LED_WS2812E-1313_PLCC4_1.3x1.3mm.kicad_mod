@@ -1,0 +1,236 @@
+(footprint "LED_WS2812E-1313_PLCC4_1.3x1.3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
+	(tags "LED RGB NeoPixel Nano PLCC-4 2427")
+	(property "Reference" "REF**"
+		(at 0.18 -1.76 0)
+		(layer "F.SilkS")
+		(uuid "29976fa0-918e-48c1-ba81-319324267df7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "LED_WS2812E-1313_PLCC4_1.3x1.3mm"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "11f34c85-b80f-46bd-b71d-beeef7ef25a2")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9e1fd90-c8b8-4323-95b8-79aa9954e8bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d40133e0-9c7a-45b1-988d-3f004b0dc5ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b50c7803-e357-4253-b8d6-d93ade9cac3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.7)
+		(end -0.7 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ed77aa4-f296-4996-819b-3cc749559f49")
+	)
+	(fp_line
+		(start -0.7 0.7)
+		(end 0.7 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca1d06bb-c27e-4859-b633-e45a2345f320")
+	)
+	(fp_line
+		(start 0.7 -0.7)
+		(end 0.7 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cbbec1c-072e-49bf-82f7-744c595902d6")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0.2) (xy -0.2 -0.15) (xy 0.2 -0.15) (xy 0 0.2)
+		)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8fe014c5-3c6b-45a7-9bbc-19ef911da851")
+	)
+	(fp_line
+		(start -1.15 -1.15)
+		(end -1.15 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e698f4d4-65a5-4d0f-a8ed-5745b8f0d483")
+	)
+	(fp_line
+		(start -1.15 1.15)
+		(end 1.15 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d2813ac-2cb3-426c-9318-d6eb3fef0d3b")
+	)
+	(fp_line
+		(start 1.15 -1.15)
+		(end -1.15 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ed360c1-b7ac-408f-ae9c-5f158b031e9b")
+	)
+	(fp_line
+		(start 1.15 1.15)
+		(end 1.15 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62f632c6-6884-46e9-ac67-40d4696553e0")
+	)
+	(fp_line
+		(start -0.65 -0.65)
+		(end 0.65 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92adf89a-bb92-4eea-8f3b-7b1441bea4dc")
+	)
+	(fp_line
+		(start -0.65 0.65)
+		(end -0.65 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63adf5b2-ad2f-4680-9ba4-c731bc8b8d6f")
+	)
+	(fp_line
+		(start -0.65 0.65)
+		(end 0.65 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4c74574-4660-4fc6-b56a-3f019923dc9c")
+	)
+	(fp_line
+		(start 0.65 0.65)
+		(end 0.65 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af04e2c5-7147-494e-948f-9a296896b33b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c5756b5f-7ccc-4d42-872b-98775daca562")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 -0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "303fa036-5e50-4d6d-bb86-5cdfd4b88a9f")
+	)
+	(pad "2" smd rect
+		(at -0.4 0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "19ff1e90-56ef-461a-889c-61ffea674474")
+	)
+	(pad "3" smd rect
+		(at 0.4 0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "abc776f0-6816-4443-a596-fad8645d4ac8")
+	)
+	(pad "4" smd rect
+		(at 0.4 -0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e6e3b1bc-4064-4031-9b80-d1df61337d0a")
+	)
+	(model "${KIPRJMOD}/Library/MK_LED/WS2812-1313.step"
+		(offset
+			(xyz -0.65 -0.65 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
