@@ -7,7 +7,7 @@
 The genlock whisker is an expansion module for the FUSE CATS Frame:Work 2025 NYC Pixel Kitty conference badge that allows you to turn your badge into a genlock tester. 
 The device reads most types of genlock signals on an HDBNC connector and displays information about them on the badge's RGB Pixel Matrix Display.
 
-#Current features:
+# Current features:
 - Detects Bi-Level or Tri-Level sync by displaying green for Bi-Level and blue for Tri-Level. Detects no sync or unstable sync by displaying "NO LOCK" in red
 - Displays Frame rate of sync up to 3 decimal places
 - Outputs sync drift statistics over USB type C serial connection
