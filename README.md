@@ -2,7 +2,7 @@
 <img width="846" height="538" alt="Screenshot 2025-11-01 at 7 53 55 AM" src="https://github.com/user-attachments/assets/c5de6d43-dbd9-4a36-a791-0f2e946aa108" />
 <img width="528" height="820" alt="Screenshot 2025-11-01 at 7 54 20 AM" src="https://github.com/user-attachments/assets/a2ef13ae-6b82-4c85-815a-56dafac129db" />
 
-#Exciting Updates!
+# Exciting Updates!
 Now with a web serial UI. Simply host the contents of the 'web' folder somewhere and open the page with Chrome (or maybe Edge? Safari does not allow web serial which makes me sad because web serial is pretty awesome) . Im gonna host this somewhere eventually as an example. TBD I *think* this requires HTTPS and you cant just open the HTML on your local machine but id love to be wrong. Anyway, the Web UI adds easier to read monitoring as well as an attempt at monitoring the statistics over time. Im trying to verify how useful ANY of these jitter measurments are and would love if anyone has......a bad genlock source that has lots of jitter to test with?
 <img width="1088" height="1045" alt="Screenshot 2025-12-03 at 4 25 40 PM" src="https://github.com/user-attachments/assets/80fa4037-8241-41e2-9f53-463d79424b9c" />
 
