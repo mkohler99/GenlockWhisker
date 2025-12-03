@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 4.7,
-          "width": 4.7
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -653,7 +653,7 @@
       "plot": "TagTag Gerber/",
       "pos_files": "production/",
       "specctra_dsn": "",
-      "step": "SyncWhiskerv1.STEP",
+      "step": "SyncWhiskerv2.STEP",
       "svg": "",
       "vrml": ""
     },

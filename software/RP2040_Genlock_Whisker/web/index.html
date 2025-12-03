@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUSE CATS GENLOCK TESTER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>FUSE CATS GENLOCK TESTER</h1>
+            <button id="connectBtn" class="btn-primary">CONNECT DEVICE</button>
+        </header>
+
+        <main>
+            <div class="status-bar">
+                <div class="status-item">
+                    <span class="label">STATUS</span>
+                    <span id="connectionStatus" class="value disconnected">DISCONNECTED</span>
+                </div>
+                <div class="status-item">
+                    <span class="label">SIGNAL TYPE</span>
+                    <span id="signalType" class="value">--</span>
+                </div>
+                <div class="status-item">
+                    <span class="label">VIDEO FORMAT</span>
+                    <span id="videoFormat" class="value highlight">--</span>
+                </div>
+                <div class="status-item">
+                    <span class="label">FPS</span>
+                    <span id="fpsValue" class="value">--</span>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="card metrics-card">
+                    <h2>SIGNAL METRICS</h2>
+                    <div class="metric-row">
+                        <div>
+                            <div class="metric-label">Lines per Frame</div>
+                            <div class="metric-desc">Measured via HSYNC</div>
+                        </div>
+                        <span id="linesCount" class="metric-value">0</span>
+                    </div>
+                    <div class="metric-row">
+                        <div>
+                            <div class="metric-label">Frames Counted</div>
+                            <div class="metric-desc">Total since connection</div>
+                        </div>
+                        <span id="framesCount" class="metric-value">0</span>
+                    </div>
+                    <div class="metric-row">
+                        <div>
+                            <div class="metric-label">HD Detect</div>
+                            <div class="metric-desc">Tri-level (HD) or Bi-level (SD)</div>
+                        </div>
+                        <span id="hdDetect" class="metric-value">--</span>
+                    </div>
+                    <div class="metric-row">
+                        <div>
+                            <div class="metric-label">Mean Period</div>
+                            <div class="metric-desc">Avg frame duration</div>
+                        </div>
+                        <span id="meanPeriod" class="metric-value">0.000</span>
+                    </div>
+                </div>
+
+                <div class="card jitter-card">
+                    <h2>JITTER STATISTICS</h2>
+                    <div class="metric-row">
+                        <div>
+                            <div class="metric-label">RMS Jitter</div>
+                            <div class="metric-desc">Root Mean Square deviation</div>
+                        </div>
+                        <span id="rmsJitter" class="metric-value highlight">0.000</span>
+                    </div>
+                    <div class="metric-row">
+                        <div>
+                            <div class="metric-label">Peak-to-Peak</div>
+                            <div class="metric-desc">Max - Min period</div>
+                        </div>
+                        <span id="ppJitter" class="metric-value">0</span>
+                    </div>
+                    <div class="metric-row">
+                        <div>
+                            <div class="metric-label">RMS Jitter (ppm)</div>
+                            <div class="metric-desc">Parts per million</div>
+                        </div>
+                        <span id="rmsJitterPpm" class="metric-value">0.0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card graph-card">
+                <div class="graph-header">
+                    <h2>JITTER HISTORY (RMS µs)</h2>
+                    <div class="graph-controls">
+                        <button id="resetGraphBtn" class="btn-small">RESET GRAPH</button>
+                    </div>
+                </div>
+                <div class="canvas-container">
+                    <canvas id="jitterChart"></canvas>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

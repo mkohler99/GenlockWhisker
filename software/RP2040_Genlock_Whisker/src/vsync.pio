@@ -1,0 +1,31 @@
+.program vsync
+
+; Measure the period between falling edges of the input pin.
+; The loop resolution is 2 cycles.
+; X register is used as a countdown timer from 0xFFFFFFFF.
+; Period = (0xFFFFFFFF - X) * 2 + overhead.
+
+.wrap_target
+    wait 1 pin 0        ; Wait for signal to be high (idle)
+    wait 0 pin 0        ; Wait for falling edge (Start of measurement)
+
+    mov x, ~NULL        ; Initialize X to 0xFFFFFFFF
+
+    ; Phase 1: Signal is LOW (Pulse)
+wait_rise:
+    jmp pin rose        ; If pin is 1 (rose), go to Phase 2
+    jmp x-- wait_rise   ; If pin is 0, decrement X and loop (2 cycles total)
+
+    ; Phase 2: Signal is HIGH (Back/Front Porch + Active)
+rose:
+wait_fall:
+    jmp pin still_high  ; If pin is 1, keep looping
+    jmp fell            ; If pin is 0 (fell), measurement done!
+
+still_high:
+    jmp x-- wait_fall   ; Decrement X and loop (2 cycles total)
+
+fell:
+    mov isr, x          ; Move remaining count to ISR
+    push noblock        ; Push to FIFO
+.wrap                   ; Loop back to wait for next high (redundant as we jump to wrap_target)

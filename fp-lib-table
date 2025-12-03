@@ -67,4 +67,5 @@
   (lib (name "HD_EMB1104_SM_2")(type "KiCad")(uri "${KIPRJMOD}/Library/HD_EMB1104_SM_2")(options "")(descr ""))
   (lib (name "AT_1224_TWT_5V_2_R")(type "KiCad")(uri "${KIPRJMOD}/Library/AT_1224_TWT_5V_2_R")(options "")(descr ""))
   (lib (name "LMH1980MM_NOPB")(type "KiCad")(uri "${KIPRJMOD}/Library/LMH1980MM_NOPB")(options "")(descr ""))
+  (lib (name "BNC7T_J_P_GN_ST_EM1D-3")(type "KiCad")(uri "${KIPRJMOD}/Library/BNC7T_J_P_GN_ST_EM1D-3")(options "")(descr ""))
 )

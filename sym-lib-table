@@ -59,4 +59,5 @@
   (lib (name "HD-EMB1104-SM-2")(type "KiCad")(uri "${KIPRJMOD}/Library/HD_EMB1104_SM_2/HD-EMB1104-SM-2.kicad_sym")(options "")(descr ""))
   (lib (name "AT-1224-TWT-5V-2-R")(type "KiCad")(uri "${KIPRJMOD}/Library/AT_1224_TWT_5V_2_R/AT-1224-TWT-5V-2-R.kicad_sym")(options "")(descr ""))
   (lib (name "2025-08-28_00-46-06")(type "KiCad")(uri "${KIPRJMOD}/Library/LMH1980MM_NOPB/2025-08-28_00-46-06.kicad_sym")(options "")(descr ""))
+  (lib (name "BNC7T-J-P-XX-ST-EM1D")(type "KiCad")(uri "${KIPRJMOD}/Library/BNC7T_J_P_GN_ST_EM1D-3/BNC7T-J-P-XX-ST-EM1D.kicad_sym")(options "")(descr ""))
 )

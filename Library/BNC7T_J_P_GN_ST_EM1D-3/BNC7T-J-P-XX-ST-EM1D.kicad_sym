@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "BNC7T-J-P-XX-ST-EM1"
+	(symbol "BNC7T-J-P-XX-ST-EM1D"
 		(pin_names
 			(offset 1.016)
 		)
@@ -18,7 +18,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "BNC7T-J-P-XX-ST-EM1"
+		(property "Value" "BNC7T-J-P-XX-ST-EM1D"
 			(at -4.064 -4.318 0)
 			(effects
 				(font
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "E"
+		(property "PARTREV" "B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95,7 +95,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "BNC7T-J-P-XX-ST-EM1_0_0"
+		(symbol "BNC7T-J-P-XX-ST-EM1D_0_0"
 			(polyline
 				(pts
 					(xy -3.302 -0.762) (xy -2.54 0)
